@@ -14,6 +14,8 @@
 		B65690CF2AB4C945004CA9D6 /* letSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65690CE2AB4C945004CA9D6 /* letSwiftUITests.swift */; };
 		B65690D92AB4C946004CA9D6 /* letSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65690D82AB4C946004CA9D6 /* letSwiftUIUITests.swift */; };
 		B65690DB2AB4C946004CA9D6 /* letSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65690DA2AB4C946004CA9D6 /* letSwiftUIUITestsLaunchTests.swift */; };
+		B65690E82AB4C9B9004CA9D6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65690E72AB4C9B9004CA9D6 /* HomeView.swift */; };
+		B65690F02AB4CA17004CA9D6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65690EF2AB4CA16004CA9D6 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B65690D42AB4C946004CA9D6 /* letSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = letSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65690D82AB4C946004CA9D6 /* letSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letSwiftUIUITests.swift; sourceTree = "<group>"; };
 		B65690DA2AB4C946004CA9D6 /* letSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B65690E72AB4C9B9004CA9D6 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B65690EF2AB4CA16004CA9D6 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		B65690BC2AB4C945004CA9D6 /* letSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B65690ED2AB4CA16004CA9D6 /* Samples */,
+				B65690E72AB4C9B9004CA9D6 /* HomeView.swift */,
 				B65690BD2AB4C945004CA9D6 /* letSwiftUIApp.swift */,
 				B65690BF2AB4C945004CA9D6 /* ContentView.swift */,
 				B65690C12AB4C945004CA9D6 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				B65690DA2AB4C946004CA9D6 /* letSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = letSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		B65690ED2AB4CA16004CA9D6 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				B65690EE2AB4CA16004CA9D6 /* Button */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		B65690EE2AB4CA16004CA9D6 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				B65690EF2AB4CA16004CA9D6 /* ButtonView.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65690E82AB4C9B9004CA9D6 /* HomeView.swift in Sources */,
 				B65690C02AB4C945004CA9D6 /* ContentView.swift in Sources */,
+				B65690F02AB4CA17004CA9D6 /* ButtonView.swift in Sources */,
 				B65690BE2AB4C945004CA9D6 /* letSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
